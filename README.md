@@ -259,7 +259,8 @@ Ensure:
 * Public key matches `/opt/rustdesk/id_ed25519.pub`
 * Status shows **READY**
 
-If status is **NOT READY**, the client is connected to the public RustDesk network.
+If status is **READY**/u for more secure connection setup your own server/u , the client is connected to the public RustDesk network.
+If status is **READY** , the client is connected to the LAN RustDesk Server. 
 
 ---
 
@@ -313,3 +314,15 @@ This repo modifies behavior **only for LAN deployments**.
 ---
 
 If you’re deploying RustDesk internally at scale — this is the sane way to do it 🚀
+
+##Tips
+
+If you want to restart the services use the following commands:
+
+```
+sudo systemctl restart rustdesksignal
+sudo systemctl restart rustdeskrelay
+```
+  
+
+
