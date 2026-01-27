@@ -8,7 +8,7 @@ It solves a common issue with the upstream RustDesk `install.sh`:
 
 This project modifies the server and client installers so that:
 
-* The **LAN IP or internal DNS name** is embedded into the RustDesk configuration key
+* The **LAN IP** is embedded into the RustDesk configuration key
 * Clients auto‑configure without manual server/key entry
 * Works for **offline / air‑gapped / enterprise LAN environments**
 
