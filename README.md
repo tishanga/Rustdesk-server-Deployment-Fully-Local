@@ -72,7 +72,7 @@ This installer **replaces WAN auto-detection with a manually defined LAN IP**.
 Before running the script, **you must edit the installer and set your own LAN IP or internal DNS name**:
 
 ```bash
-wanip="<YOUR_LAN_IP_OR_INTERNAL_DNS>"
+wanip="<YOUR_LAN_IP>"
 ```
 
 ✔ This ensures the generated configuration key is valid for all LAN clients
@@ -130,7 +130,7 @@ sudo nano install.sh
 Locate the following line:
 
 ```bash
-wanip="<YOUR_LAN_IP_OR_INTERNAL_DNS>"
+wanip="<YOUR_LAN_IP>"
 ```
 
 Replace it with your **server’s LAN IP or internal DNS name**:
