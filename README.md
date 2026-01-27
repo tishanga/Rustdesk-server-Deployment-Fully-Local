@@ -96,7 +96,7 @@ sudo apt install -y wget curl net-tools nano ufw
 sudo ufw allow 21115:21119/tcp
 sudo ufw enable
 ```
-
+!!In some case this needs to enabled keep this in mind
 ---
 
 ### 2️⃣ Download & Configure the Installer
