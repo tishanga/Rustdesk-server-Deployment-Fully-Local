@@ -103,7 +103,7 @@ sudo ufw enable
 Download the server installation script from this repository:
 
 ```bash
-wget <YOUR_GITHUB_RAW_INSTALL_SH_URL>
+wget https://github.com/tishanga/Rustdesk-server-Deployment-Fully-Local/blob/main/server/install.sh
 ```
 
 Make it executable:
@@ -217,7 +217,7 @@ set RUSTDESK_CFG=vgbepiougbev9831tb3g812bvg8287v2bv28vbggb2v2bvg921bv319bgvfb3c2
 ```
 your cfg can be found in
 ```
-cat /opt/
+cat /opt/rustdesk/id_ed25519
 ```
 No other changes are required.
 
