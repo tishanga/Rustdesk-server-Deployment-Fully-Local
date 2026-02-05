@@ -4,7 +4,7 @@
 rustdesk_pw=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
 
 # Get your config string from your Web portal and Fill Below
-rustdesk_cfg="0nIdCo45UjLwgjLycjLwETnAK+LvozcwRHdoJiOikGchJCLi0zYMh0apF0ajZmNNpmVxVTVUVEOk9GSYl1MWhHZTRDTzMHeMlTcmVlWJpXNiojI5V2aiwiIdCo45UjLwgjLycjLwETnAKuI6ISehxWZyJCLi0JginTNuADOuIzNuATMdCo4iojI0N3boJye"
+rustdesk_cfg="your cfg key here"
 
 ################################### Please Do Not Edit Below This Line #########################################
 
