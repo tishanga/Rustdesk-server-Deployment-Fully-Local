@@ -80,6 +80,12 @@ wanip="<YOUR_LAN_IP>"
 
 ---
 
+###  Pre-request tools
+
+```bash
+sudo apt update && sudo apt install -y nano iputils-ping curl traceroute net-tools htop wget unzip dnsutils
+```
+---
 ### 1️⃣ Prepare the Server
 
 * Use a **static LAN IP** or internal DNS name
